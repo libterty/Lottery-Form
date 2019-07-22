@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="form-input">
+        <div class="container mt-5">
+            <h3>Hello!</h3>
+            <form action="" name="form col-md-5 validation" id='form' novalidate>
+                <div class="form-group" id="nameform">
+                    <label for="name">Your Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Input your Name" required/>
+                    <div class="feedback small"></div>
+                </div>
+                <div class="form-group" id="emailform">
+                    <label for="email">Your Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="example@example.com" required/>
+                    <div class="feedback small"></div>
+                </div>
+                <div class="form-group" id="idform">
+                    <label for="companyId">Your Company Id</label>
+                    <input type="text" class="form-control" id="companyId" placeholder="Input your company Id" required/>
+                    <div class="feedback small"></div>
+                </div>
+                <div class="form-group">
+                    <button type="submit" value="submit" class="btn btn-primary" id="submitBtn" data-action="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="form-output" id="generateItem">
+
+    </section>
+    <script src="main.js"></script>
+</body>
+
+</html>

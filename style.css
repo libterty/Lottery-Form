@@ -1,0 +1,23 @@
+body {
+    display: grid !important;
+    grid-auto-columns: 50% 50% !important;
+    grid-auto-rows: 100% !important;
+}
+
+.form-input {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.form-output {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.row {
+    padding-block-start: 3px !important;
+}
+
+h3 {
+    white-space: nowrap !important;
+}
