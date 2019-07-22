@@ -1,4 +1,4 @@
-# USER-SOCIAL-MEDIA
+# Lottery-Form
 
 A simple web application for form submission and showing results
 
